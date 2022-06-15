@@ -6,7 +6,7 @@ class User {
   late String fullname;
   late String pseudo;
   late String email;
-  late String avatar;
+  late String? avatar;
 
   User(DocumentSnapshot snapshot) {
     id = snapshot.id;

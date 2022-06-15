@@ -5,7 +5,7 @@ class Advertisement {
   late String id;
   late String name;
   late String description;
-  late String image;
+  late String? image;
   DateTime created = DateTime.now();
 
   Advertisement(DocumentSnapshot snapshot) {
