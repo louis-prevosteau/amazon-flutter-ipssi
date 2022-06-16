@@ -16,4 +16,12 @@ class User {
     email = map['EMAIL'];
     avatar = map['AVATAR'];
   }
+
+  User.empty() {
+    id = '';
+    fullname = '';
+    pseudo = '';
+    email = '';
+    avatar = '';
+  }
 }

@@ -17,4 +17,12 @@ class Advertisement {
     Timestamp timestamp = map['CREATED'];
     created = timestamp.toDate();
   }
+
+  Advertisement.empty() {
+    id = '';
+    name = '';
+    description = '';
+    image = '';
+    created = DateTime.now();
+  }
 }

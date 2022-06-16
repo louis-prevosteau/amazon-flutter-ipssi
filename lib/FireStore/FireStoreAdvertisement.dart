@@ -18,7 +18,8 @@ class FireStoreAdvertisement {
   createAd(String name, String description) async {
     Map<String, dynamic> map = {
       'NAME': name,
-      'DESCRIPTION': description
+      'DESCRIPTION': description,
+      'CREATED': DateTime.now()
     };
     await fire_advertisement.add(map);
   }
