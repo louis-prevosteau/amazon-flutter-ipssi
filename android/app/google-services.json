@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1029433079720",
+    "project_id": "ipssi-34919",
+    "storage_bucket": "ipssi-34919.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029433079720:android:268e233c951abfb5a1cf9d",
+        "android_client_info": {
+          "package_name": "com.example.amazon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029433079720-9uq02vu3oe0j3ro05kii5a5rn0pre17c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiEuqwT8NHNKkOGxnfR3lUU5tIYtx3-bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029433079720-9uq02vu3oe0j3ro05kii5a5rn0pre17c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
